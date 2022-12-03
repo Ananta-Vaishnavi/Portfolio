@@ -496,8 +496,17 @@ section {
 # About
 --------------------------------------------------------------*/
 .image-fluid{
-  height: 600px;
+  height: 450px;
   width:600;
+}
+.about p{
+  font-size: 30px;
+  color: #505254;
+  font-family: 'Cormorant Garamond', serif;
+}
+.about p span{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 23px;
 }
 .about .content h3 {
   font-weight: 700;
