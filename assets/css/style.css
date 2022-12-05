@@ -234,7 +234,6 @@ h6 {
   opacity: 1;
   bottom: 0;
 }
-
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -498,6 +497,7 @@ section {
 .image-fluid{
   height: 450px;
   width:600;
+  background-size: contain;
 }
 .about p{
   font-size: 30px;
