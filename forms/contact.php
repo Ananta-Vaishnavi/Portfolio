@@ -6,7 +6,6 @@
   * For more info and help: https://bootstrapmade.com/php-email-form/
   */
 
-  // Replace email address with your real receiving email address
   // Don't modify the email address in the main branch
   $receiving_email_address = 'movvavaishnavi2503@gmail.com';
 
