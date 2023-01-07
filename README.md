@@ -1,6 +1,8 @@
 # Portfolio Website
 
-Welcome to my portfolio website! Here you can find a collection of my past projects and a little bit about me.
+Welcome to my portfolio website! Here you can find a collection of my past projects and a little bit about me. This portfolio project is a feature-rich web application that enables users to effectively manage and track their personal investment portfolio. The user interface is intuitive and user-friendly, allowing for seamless navigation and effortless management of portfolio transactions and holdings. Utilizing a combination of HTML, CSS, JavaScript, and PHP, this project boasts a robust and modern technology stack, ensuring scalable and reliable performance.
+
+Some of the standout features of this project include real-time price updates for a diverse range of asset classes, comprehensive visualization of historical data, customizable portfolio views, and in-depth transaction logging and analysis. Additionally, the design of the project is fully responsive, optimizing the user experience across a variety of devices, including desktop and mobile. 
 
 ## Tech Stack
 
@@ -59,7 +61,7 @@ Examples:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
 
 
 
