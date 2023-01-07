@@ -13,37 +13,8 @@ This website was built using the following technologies:
 
 ## Portfolio
 
-Here is a selection of some of my past projects:
-
-### Project 1
-
-[Project Name](link-to-project)
-
-A brief description of the project and what it does.
-
-#### Screenshots
-
-![Screenshot Description](screenshots/screenshot-file-name.png)
-
-### Project 2
-
-[Project Name](link-to-project)
-
-A brief description of the project and what it does.
-
-#### Screenshots
-
-![Screenshot Description](screenshots/screenshot-file-name.png)
-
-### Project 3
-
-[Project Name](link-to-project)
-
-A brief description of the project and what it does.
-
-#### Screenshots
-
-![Screenshot Description](screenshots/screenshot-file-name.png)
+![Homepage Screenshot](screenshots/project.png)
+![Project Screenshot](screenshots/project.png)
 
 ## Contribution Guide
 
@@ -56,10 +27,41 @@ If you are interested in contributing to this project, please follow these guide
 5. Push your changes to your fork.
 6. Create a new pull request.
 
+## HTML Style Guide
+
+- Indentation: Use 2 spaces for indentation.
+- Line length: Limit lines to a maximum of 80 characters.
+- Naming conventions: Use lowercase and hyphenated names for class names (e.g., `header-nav`, `footer-link`).
+- Quotes: Use double quotes for attribute values (e.g., `<a href="index.html">Home</a>`).
+
+Examples:
+
+```html
+<body>
+  <header class="header-nav">
+    <h1 class="logo">My Website</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- main content goes here -->
+  </main>
+  <footer class="footer-link">
+    <p>Copyright 2020 My Website</p>
+  </footer>
+</body>
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-If you have any questions or would like to get in touch, please feel free to contact me at [your.email@example.com](mailto:your.email@example.com).
+If you have any questions or would like to get in touch, please feel free to contact me at [movvavaishnavi2503@gmail.com](mailto: movvavaishnavi2503@gmail.com).
+
+
