@@ -61,8 +61,6 @@ Examples:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
 
-If you have any questions or would like to get in touch, please feel free to contact me at [movvavaishnavi2503@gmail.com](mailto: movvavaishnavi2503@gmail.com).
 
 
