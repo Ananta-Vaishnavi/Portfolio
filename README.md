@@ -17,8 +17,8 @@ This website was built using the following technologies:
 
 ## Portfolio
 
-![Homepage Screenshot](screenshots/project.png)
-![Project Screenshot](screenshots/project.png)
+![Homepage Screenshot](images/project ss1.png)
+![Project Screenshot](images/project ss2.png)
 
 ## Contribution Guide
 Contributions are always welcome!
