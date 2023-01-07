@@ -23,7 +23,7 @@ This website was built using the following technologies:
 ## Contribution Guide
 Contributions are always welcome!
 
-See [CONTRIBUTION](CONTRIBUTION.md)  for ways to get started.
+See [CONTRIBUTING](CONTRIBUTING.md)  for ways to get started.
 
 ## License
 
