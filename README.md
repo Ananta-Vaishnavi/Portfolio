@@ -19,45 +19,10 @@ This website was built using the following technologies:
 ![Project Screenshot](screenshots/project.png)
 
 ## Contribution Guide
+Contributions are always welcome!
 
-If you are interested in contributing to this project, please follow these guidelines:
+See [CONTRIBUTING](CONTRIBUTING.md) for ways to get started.
 
-1. Fork the repository to your own GitHub account.
-2. Clone the repository to your local machine.
-3. Create a new branch for your changes.
-4. Make the necessary changes and commit them to your branch.
-5. Push your changes to your fork.
-6. Create a new pull request.
-
-## HTML Style Guide
-
-- Indentation: Use 2 spaces for indentation.
-- Line length: Limit lines to a maximum of 80 characters.
-- Naming conventions: Use lowercase and hyphenated names for class names (e.g., `header-nav`, `footer-link`).
-- Quotes: Use double quotes for attribute values (e.g., `<a href="index.html">Home</a>`).
-
-Examples:
-
-```html
-<body>
-  <header class="header-nav">
-    <h1 class="logo">My Website</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <!-- main content goes here -->
-  </main>
-  <footer class="footer-link">
-    <p>Copyright 2020 My Website</p>
-  </footer>
-</body>
-```
 
 ## License
 
