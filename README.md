@@ -21,8 +21,9 @@ This website was built using the following technologies:
 ![Project Screenshot](screenshots/project.png)
 
 ## Contribution Guide
+Contributions are always welcome!
 
-
+See [CONTRIBUTION](CONTRIBUTION.md)  for ways to get started.
 
 ## License
 
