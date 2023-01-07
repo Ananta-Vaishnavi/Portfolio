@@ -55,6 +55,7 @@ Examples:
     <p>Copyright 2020 My Website</p>
   </footer>
 </body>
+```
 
 ## License
 
