@@ -1,113 +1,105 @@
-# Contributing to the Portfolio Website
+# Contributing Guidelines 🤝
 
-Thank you for considering contributing to the portfolio website! We welcome contributions of all kinds, including bug reports, code changes, documentation improvements, and more.
+</br>
 
-## New contributor guide
-
-To get an overview of the project, read the [README](README.md). Here are some resources to help you get started with open source contributions:
-
-- [Finding ways to contribute to open source on GitHub](https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github)
-- [Set up Git](https://docs.github.com/en/get-started/quickstart/set-up-git)
-- [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)
-- [Collaborating with pull requests](https://docs.github.com/en/github/collaborating-with-pull-requests)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+&nbsp;
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
 
 
-## Getting started
+This documentation contains a set of guidelines to help you during the contribution process.
+We are happy to welcome all the contributions from anyone willing to improve/add new ideas to this project.
+Thank you for helping out and remember, **no contribution is too small.**
+Being an open source contributor doesn't just mean writing code, either. You can help out by writing documentation, tests, or even giving suggestions. 🏆
 
-To navigate our codebase with confidence, see [the introduction to working in the docs repository](/contributing/working-in-docs-repository.md) :confetti_ball:. For more information on how we write our markdown files, see [the GitHub Markdown reference](contributing/content-markup-reference.md).
+</br>
 
-Check to see what [types of contributions](/contributing/types-of-contributions.md) we accept before making changes. Some of them don't even require writing a single line of code :sparkles:.
+### 0 : Issues
 
-### Issues
+- Always check the [existing issues](https://github.com/Ananta-Vaishnavi/Portfolio/issues) before creating your own issue.**Do not create an issue if it already exists.**
+- Only start working on an issue if it has been assigned to you. **Check assignees**
+- Every change in this project should/must have an associated issue. **Issue before PR**
+- Do not create multiple PRs for the same issue. **One PR per issue**
+- Assignee should make a PR in a time bound manner (possibly 1-2 weeks ) otherwise it maybe unassigned.
+- If a PR closes the issue link it to the issue.
+- If a change is requested, link the commit to the issue.
 
-#### Create a new issue
 
-If you spot a problem with the docs, [search if an issue already exists](https://docs.github.com/en/github/searching-for-information-on-github/searching-on-github/searching-issues-and-pull-requests#search-by-the-title-body-or-comments). If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/github/docs/issues/new/choose). 
 
-#### Solve an issue
+###  1 : Fork the Project
 
-Scan through our [existing issues](https://github.com/github/docs/issues) to find one that interests you. You can narrow down the search using `labels` as filters. See [Labels](/contributing/how-to-use-labels.md) for more information. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix.
+- Fork this repository. This will create a local copy of this repository on your GitHub profile.
+Keep a reference to the original project in `upstream` remote.  
 
-### Make Changes
+```bash
+git clone https://github.com/<your-username>//Portfolio.git
+cd Portfolio 
+git remote add upstream https://github.com/Ananta-Vaishnavi/Portfolio.git
+```   
 
-#### Make changes in the UI
+- If you have already forked the project, update your copy before working on it.
 
-Click **Make a contribution** at the bottom of any docs page to make small changes such as a typo, sentence fix, or a broken link. This takes you to the `.md` file where you can make your changes and [create a pull request](#pull-request) for a review. 
+```bash
+git remote update
+git checkout main
+git rebase upstream/main
+```  
 
- <img src="./images/contribution.png" width="300" height="150" /> 
- 
-#### Make changes in a codespace
+###  2 : Branch
 
-For more information about using a codespace for working on GitHub documentation, see "[Working in a codespace](https://github.com/github/docs/blob/main/contributing/codespace.md)."
+Create a new branch after setting up the project locally before making any changes, so as to avoid merge conflicts while making PRs.
+Use the name of the branch to identify the issue you're addressing; Feature , Bug Fix or Enhancement.
 
-#### Make changes locally
+```bash
+# It will create a new branch with name branch_name and switch to that branch 
+git checkout -b branch_name
+```
 
-1. Fork the repository.
-- Using GitHub Desktop:
-  - [Getting started with GitHub Desktop](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/getting-started-with-github-desktop) will guide you through setting up Desktop.
-  - Once Desktop is set up, you can use it to [fork the repo](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop)!
+###  3 : Work on the issue assigned
 
-- Using the command line:
-  - [Fork the repo](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository) so that you can make your changes without affecting the original project until you're ready to merge them.
+- Work on the issue(s) assigned to you.
+- Add all the files/folders needed.
+- After you've made changes or made your contribution to the project, add changes to the branch you've just created:
 
-2. Install or update to **Node.js v16**. For more information, see [the development guide](contributing/development.md).
+```bash  
+# To add all new files to branch branch_name  
+git add .  
 
-3. Create a working branch and start with your changes!
+# To add only a few files to branch_name
+git add <some files>
+```
 
-### Commit your update
+###  4 : Commit
 
-Commit the changes once you are happy with them. Don't forget to [self-review](/contributing/self-review.md) to speed up the review process:zap:.
+- To commit the changes you've made, give a descriptive message for the convenience of the reviewer:
 
-### Pull Request
+```bash
+# This message get associated with all files you have changed  
+git commit -m "message"  
+```
 
-When you're finished with the changes, create a pull request, also known as a PR.
-- Fill the "Ready for review" template so that we can review your PR. This template helps reviewers understand your changes as well as the purpose of your pull request. 
-- Don't forget to [link PR to issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) if you are solving one.
-- Enable the checkbox to [allow maintainer edits](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/allowing-changes-to-a-pull-request-branch-created-from-a-fork) so the branch can be updated for a merge.
-Once you submit your PR, a Docs team member will review your proposal. We may ask questions or request additional information.
-- We may ask for changes to be made before a PR can be merged, either using [suggested changes](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/incorporating-feedback-in-your-pull-request) or pull request comments. You can apply suggested changes directly through the UI. You can make any other changes in your fork, then commit them to your branch.
-- As you update your PR and apply changes, mark each conversation as [resolved](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request#resolving-conversations).
-- If you run into any merge issues, checkout this [git tutorial](https://github.com/skills/resolve-merge-conflicts) to help you resolve merge conflicts and other issues.
+- **NOTE**: A PR should have only one commit. Multiple commits should be squashed.
 
-### Your PR is merged!
+###  5 : Work Remotely
 
-Congratulations :tada::tada: The GitHub team thanks you :sparkles:. 
+```bash  
+# To push your work to your remote repository
+git push -u origin branch_name
+```
 
-Once your PR is merged, your contributions will be publicly visible on the [GitHub docs](https://docs.github.com/en). 
+###  6 : Pull Request
 
-Now that you are part of the GitHub docs community, see how else you can [contribute to the docs](/contributing/types-of-contributions.md).
+- Go to your repository in the browser and click on compare and pull requests.
+Then add a title and description to your pull request that explains your contribution.  
 
-## Windows
 
-This site can be developed on Windows, however a few potential gotchas need to be kept in mind:
+### 7 : Review
 
-1. Regular Expressions: Windows uses `\r\n` for line endings, while Unix-based systems use `\n`. Therefore, when working on Regular Expressions, use `\r?\n` instead of `\n` in order to support both environments. The Node.js [`os.EOL`](https://nodejs.org/api/os.html#os_os_eol) property can be used to get an OS-specific end-of-line marker.
-2. Paths: Windows systems use `\` for the path separator, which would be returned by `path.join` and others. You could use `path.posix`, `path.posix.join` etc and the [slash](https://ghub.io/slash) module, if you need forward slashes - like for constructing URLs - or ensure your code works with either.
-3. Bash: Not every Windows developer has a terminal that fully supports Bash, so it's generally preferred to write [scripts](/script) in JavaScript instead of Bash.
-4. Filename too long error: There is a 260 character limit for a filename when Git is compiled with `msys`. While the suggestions below are not guaranteed to work and could cause other issues, a few workarounds include:
-    - Update Git configuration: `git config --system core.longpaths true`
-    - Consider using a different Git client on Windows
+- 🎉🌟Congratulations! Sit and relax, you've made your contribution to Terminal-Portfolio project. Wait until the PR is reviewed and incorporate changes suggested by the community. After which the PR can be successfully merged.
+🎉🎊
 
-## Style Guidelines
 
-To ensure consistency and maintainability, we ask that you follow these style guidelines when contributing to the project:
-
-- **HTML:** Follow these HTML style guidelines:
-  - Indentation: Use 2 spaces for indentation.
-  - Line length: Limit lines to a maximum of 80 characters.
-  - Naming conventions: Use lowercase and hyphenated names for class names (e.g., `header-nav`, `footer-link`).
-  - Quotes: Use double quotes for attribute values (e.g., `<a href="index.html">Home</a>`).
-
-- **CSS:** Use a consistent indentation style and limit line length to 80 characters. Declare classes in alphabetical order and use hyphenated lowercase names (e.g., `header-nav`, `footer-link`).
-
-- **JavaScript:** Use consistent indentation and limit line length to 80 characters. Declare variables in camelCase and use descriptive names.
-
-- **PHP:** Use consistent indentation and limit line length to 80 characters. Declare variables in camelCase and use descriptive names.
-
-## Code Review
-
-All pull requests will be reviewed by a member of the team before they are merged. We appreciate your patience and understanding as we review your changes.
-
-## License
-
-By contributing to the portfolio website, you agree to license your contributions under the [MIT License](LICENSE).
+### Note : Do not add images, rather 👇 
+- You can do that by hosting all you images and screenshots to any images hosting sites such as [imgur](https://imgur.com/), [imgbb](https://imgbb.com/), [postimages](https://postimages.org/).
+- Then link your uploaded images to README files.
+    
