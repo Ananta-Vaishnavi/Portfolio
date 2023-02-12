@@ -33,7 +33,7 @@ Keep a reference to the original project in `upstream` remote.
 
 ```bash
 git clone https://github.com/<your-username>//Portfolio.git
-cd Terminal-Portfolio 
+cd Portfolio 
 git remote add upstream https://github.com/Ananta-Vaishnavi/Portfolio.git
 ```   
 
